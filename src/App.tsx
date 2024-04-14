@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <div>
-      Counter Button
+      Click button to increase the count
     </div>
       <div className="card">
         <button className="btn-hover color-1" onClick={() => setCount((count) => count + 1)}>
